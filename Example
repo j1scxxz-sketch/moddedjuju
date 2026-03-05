@@ -2,7 +2,7 @@ getgenv().script_name = "panda"
 getgenv().script_version = "cool"
 
 local lib = loadstring(game:HttpGet(
-                           "https://raw.githubusercontent.com/panduh16/juju/main/ui.lua"))()
+                           "https://raw.githubusercontent.com/j1scxxz-sketch/moddedjuju/refs/heads/main/Library.lua"))()
 local group = lib["menu"].create_group("group")
 group:create_tab("tab")
 local section = group:create_section("tab", "section", 1, 1, 0)
